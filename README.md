@@ -6,7 +6,7 @@
 
 This script enhances the lxc-start, lxc-stop, and similar LXC commands with auto-completion functionality using fzf. 
 By combining LXC container names with fzf's interactive fuzzy search, users can easily select a container from a list with a preview of its configuration. Additionally, 
-if available, the script displays the container's index.md file along with its config file, making it easier to review container-specific details before performing actions like starting or stopping.
+if available, the script displays the container's index.md (if exists /var/lib/lxc/{}/index.md) file along with its config file, making it easier to review container-specific details before performing actions like starting or stopping.
 
 > [!TIP]
 > Shows the contents of the index.md file, followed by the config file preview after the --- separator.
